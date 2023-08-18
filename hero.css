@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* this is how to write comments on CSS */
+/* ctrl "/" for a shortcut to make a comment */
+
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h2{
+    font-family: 'Nosifer', cursive;
+}
+
+header h1{
+    color: darkred;
+    font-size: 55px;
+}
+
+.large-hovering{
+    border-radius: 150px;
+    width: 450px;
+    height: 280px;
+    border: 3px solid darkred;
+}
+
+.large-hovering:hover{
+    width: 490px;
+    height: 320px;
+}
+
+main{
+    color: grey;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 2px solid grey;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 30px;
+    color: darkred;
+    margin: 40px 0 10px;
+}
+
+a{
+    color: white;   
+}
+a:hover{
+    color: darkred;
+    font-family: 'Nosifer', cursive;
+    font-size: 15px;
+}
+
+footer{
+    font-size: small;
+    color: grey;
+    text-align: right;
+    padding-right: 10px;
+}
+
+p.caption{
+    margin-top: 0;
+    color: crimson;
+    font-style: italic;
+    font-size: 15px;
+}
