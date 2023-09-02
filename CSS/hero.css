@@ -78,6 +78,10 @@ p.caption{
     font-size: 15px;
 }
 
+.last{
+  margin-bottom: 40px;
+}
+
 /* CSS */
 .link-button {
   align-items: center;
